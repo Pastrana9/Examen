@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="173dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/google" />
+
+    <android.inputmethodservice.ExtractEditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#979494"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="293dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="372dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.06"
+        app:srcCompat="@drawable/actor" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine1"
+        android:layout_width="293dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="359dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="George Clooney once gave 14 friends $1 million each -- in cash"
+        android:inputType="textMultiLine"
+        app:layout_constraintTop_toTopOf="@+id/scrollView2"
+        tools:layout_editor_absoluteX="59dp" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine2"
+        android:layout_width="294dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="He shared the anecdote in an interview with GQ, which crowned Clooney its Icon of the Year, among other ho"
+        android:inputType="textMultiLine"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextMultiLine1"
+        tools:layout_editor_absoluteX="59dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton1.5"
+        android:layout_width="70dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="300dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cnn"
+        tools:layout_editor_absoluteY="494dp" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine3.5"
+        android:layout_width="1000dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="cnn.com * 19 hours ago"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="484dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="122dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="70dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/Space" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine3"
+        android:layout_width="217dp"
+        android:layout_height="95dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Space Is Dark, But Scientists Have Found Unexplained Light"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        tools:layout_editor_absoluteY="554dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2.5"
+        android:layout_width="70dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="300dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/Npr"
+        tools:layout_editor_absoluteY="645dp" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine4.5"
+        android:layout_width="1000dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="NPR * 10 hours ago"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="640dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.06"
+        app:srcCompat="@drawable/Discover" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.06"
+        app:srcCompat="@drawable/updates" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.06"
+        app:srcCompat="@drawable/Search" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.757"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.06"
+        app:srcCompat="@drawable/recent" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.06"
+        app:srcCompat="@drawable/more" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
